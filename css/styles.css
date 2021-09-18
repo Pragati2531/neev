@@ -1,0 +1,141 @@
+body{
+  margin:0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1
+{
+  font-size: 5.625rem ;/*=562.5%=90px=5.625em --> in case of dynamic i.e. em or %; the size gets inherited on top of it'S parent font size. to ignore parent setting, use rem instead of em in CSS3*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #FFC85C;
+}
+h2
+{
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight:normal;
+  /*line-height:2;*/
+  color: #FFC85C;
+}
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color:#FCA652;
+}
+p{
+  line-height: 200%; /*=2 ; because default is 1*/
+  /*clear:left; -> this is an anti-float property to clear the left side of text and bring it below the image instead of wrapping it.*/
+}
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin:100px auto;
+}
+a{
+  color:#FCA652;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0.625rem 1.25rem;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #FFD57E;
+}
+.top-container{
+  background-color: #FFF8C1;
+ /*   padding-left: 5px; space inside box before the text; increases the size of the box */
+  /* margin-left: 5px;  space before the box on screen; doesn't the size of the box */
+  /* border: 2px;  gives border to the box; doesn't increase or decrease the size of box, just adds the border */
+  position:relative;
+  padding-top: 100px;
+}
+.middle-container
+{
+  margin:100px 0;
+}
+.bottom-container
+{
+  background-color: #FFF8C1;
+  padding:3.125rem 0 1.25rem;
+}
+.skill-row
+{
+  width: 50%;
+  margin:6.25rem auto 6.25rem auto;
+  text-align: left;
+}
+.web_dev_img
+{
+  width:15%;
+  float:left;
+  margin-right:30px;
+}
+.hulahoop_img
+{
+  width:15%;
+  float:right;
+  margin-left:30px;
+}
+
+.contact-message
+{
+  width: 30%;
+  margin: 2.5rem auto 3.75rem;
+}
+.pro{
+  text-decoration: underline;
+}
+.intro
+{
+  width: 25%;
+  margin: auto;
+}
+.bottom-cloud
+{
+  position: absolute;
+  left: 300px;
+  bottom: 310px;
+}
+.top-cloud
+{
+  position:absolute;
+  top: 35px;
+  right:300px;
+}
+.copyright
+{
+  font-size: 0.75rem;
+  color: #FFD57E;
+  padding: 1.25rem 0;
+}
+.btn {
+  background: #FFD57E;
+  background-image: -webkit-linear-gradient(top, #FFD57E, #ff9d42);
+  background-image: -moz-linear-gradient(top, #FFD57E, #ff9d42);
+  background-image: -ms-linear-gradient(top, #FFD57E, #ff9d42);
+  background-image: -o-linear-gradient(top, #FFD57E, #ff9d42);
+  background-image: linear-gradient(to bottom, #FFD57E, #ff9d42);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffd99c;
+  background-image: -webkit-linear-gradient(top, #ffd99c, #ffd28f);
+  background-image: -moz-linear-gradient(top, #ffd99c, #ffd28f);
+  background-image: -ms-linear-gradient(top, #ffd99c, #ffd28f);
+  background-image: -o-linear-gradient(top, #ffd99c, #ffd28f);
+  background-image: linear-gradient(to bottom, #ffd99c, #ffd28f);
+  text-decoration: none;
+  color: #ffffff;
+}
